@@ -106,7 +106,8 @@ if uploaded_batch_records is not None:
 
             with dataframe_tab:
                 st.markdown("#### Clinical Registry Records Preview (Top 10 Measurements)")
-                st.dataframe(imported_records_df.head(10), use_container_width=True)
+                """ st.dataframe(imported_records_df.head(10), use_container_width=True) """
+                st.dataframe(imported_dataset.head(10), use_container_width=True)
 
         except Exception as system_anomaly_error:
             st.error(f"Critical Deployment Alignment Interruption: Pipeline vectors out of bounds. Details: {system_anomaly_error}")
