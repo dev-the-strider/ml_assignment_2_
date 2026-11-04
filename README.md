@@ -1,11 +1,11 @@
-## a. Assignment Statement
-The objective of this predictive analytics assignment is to build, validate, and serve an end-to-end machine learning system capable of classifying patient diagnostic variables to determine downstream diabetes progression risk profiles. By analyzing critical regular health indicators, lifestyle parameters, and clinical measurements, the trained pipeline automates early triage detection mapping. Deploying this architecture into a distributed web environment enables real-time diagnostic decision support utilities for frontline medical systems.
+## a. Problem Statement
+The objective of this predictive analytics initiative is to build, validate, and serve an end-to-end machine learning system capable of classifying patient diagnostic variables to determine downstream diabetes progression risk profiles. By analyzing critical regular health indicators, lifestyle parameters, and clinical measurements, the trained pipeline automates early triage detection mapping. Deploying this architecture into a distributed web environment enables real-time diagnostic decision support utilities for frontline medical systems.
 
 ## b. Dataset Description
 The underlying evaluation engine utilizes an empirical healthcare registry dataset consisting of **15,000 distinct patient profiles** and **17 separate predictive dimensions** alongside a supervised output risk variable target label. The feature landscape is structured across 9 continuous numerical parameters (including features tracking structural diagnostic measures like bmi, fasting_blood_sugar, hba1c_level, and arterial blood pressure readings) and 8 categorical attributes tracking behavioral and demographics patterns (such as smoking_status, diet_type, and physical_activity_level). Missing indicators across variables were dynamically imputed using median and modal feature fallback vectors to maintain pipeline matrix alignment during operational validation loops.
 
 ## c. Github Repository Link
-[Insert your GitHub Repository link here]
+https://github.com/dev-the-strider/ml_assignment_2_.git
 
 ## d. Models Used & Evaluation Comparison Matrix
 
